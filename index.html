@@ -1,44 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Country Information</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <div class="container">
-
       <div class="search-box">
-
-          <input id="input" type="text" spellcheck="true" placeholder="Enter Your Country Name"/>
-          <button id="button">Search</button>
-
+        <input id="input" type="text" spellcheck="true" placeholder="Enter Country Name" />
       </div>
 
       <div class="info-box">
-
         <div class="img-box">
-            <img src="" alt="Flag" id="img">
+          <img src="" alt="Flag" id="img" />
         </div>
 
         <div class="country-name">
-
-            <h2>Country Name</h2>
-            <h3 id="common"></h3>
-
+          <h2>Country Name</h2>
+          <h3 id="common"></h3>
         </div>
 
         <div class="country-info">
-        <h3 id="capital"></h3>
-        <h3 id="population"></h3>
-        <h3 id="border"></h3>
-        <h3 id="languages"></h3> 
+          <h3 id="capital"></h3>
+          <h3 id="population"></h3>
+          <h3 id="border"></h3>
+          <h3 id="languages"></h3>
         </div>
-
       </div>
-
     </div>
+
+    <!-- Loader -->
+    <div class="loader" style="display: none;"></div>
 
     <script type="module" src="app.js"></script>
   </body>
