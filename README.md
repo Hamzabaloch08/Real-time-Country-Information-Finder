@@ -13,5 +13,5 @@ A web application allows users to search for information about a country such as
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-Hamzabaloch08/country-information-finder.git
+   git clone https://github.com/your-Hamzabaloch08/Real-time-Country-Information-Finder.git
    ```
