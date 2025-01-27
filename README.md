@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-time Country Information Finder
 
 A web application allows users to search for information about a country such as its flag, capital, population, borders, and languages. The app fetches real-time data from the [REST Countries API](https://restcountries.com) and displays it dynamically as the user types the country name.
@@ -16,3 +17,6 @@ A web application allows users to search for information about a country such as
    git clone https://github.com/your-Hamzabaloch08/country-information-finder.git
 
  
+=======
+
+>>>>>>> 2a6ad6423164a32f4ede69c4109e67bf169fe2ec
